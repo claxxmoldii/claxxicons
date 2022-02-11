@@ -1,5 +1,5 @@
 <!-- issues -->
-<section class="page-section" id="issues">
+<section id="issues" class="page-section issues">
   <div class="container">
     <div class="text-center">
         <h2 class="section-heading text-uppercase">issues...</h2>
@@ -16,6 +16,19 @@
           <div class="timeline-body">
             <p class="text-muted">
               clicking on a nav link first takes you to the top, then a second click on the same link, scrolls you down to the '#link'
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h3>fontawesome is wonky...</h3>
+            <h4 class="subheading">it was okay on localhost</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">
+              fontawesome control is loose...
             </p>
           </div>
         </div>
@@ -54,7 +67,7 @@
           </div>
           <div class="timeline-body">
             <p class="text-muted">
-              <a href="">surge</a>
+              <a href="https://claxxicons.surge.sh">claxxicons.surge.sh</a>
             </p>
           </div>
         </div>
@@ -67,7 +80,7 @@
           </div>
           <div class="timeline-body">
             <p class="text-muted">
-              <a href="">github</a>
+              <a href="https://github.com/claxxmoldii/claxxicons">https://github.com/claxxmoldii/claxxicons</a>
             </p>
           </div>
         </div>
@@ -85,5 +98,9 @@
 
   ul {
     margin-left: 25vw;
+  }
+
+  .issues a {
+    color:  tomato;
   }
 </style>
