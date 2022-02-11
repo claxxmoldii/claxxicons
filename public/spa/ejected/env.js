@@ -1,0 +1,1 @@
+export let env = { local: true, baseurl: '', cms: { repo: '', redirectUrl: '', appId: '' } };
