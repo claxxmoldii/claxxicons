@@ -23,25 +23,12 @@
       <li>
         <div class="timeline-panel">
           <div class="timeline-heading">
-            <h3>fontawesome is wonky...</h3>
-            <h4 class="subheading">it was okay on localhost</h4>
-          </div>
-          <div class="timeline-body">
-            <p class="text-muted">
-              fontawesome control is loose...
-            </p>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
             <h3>how to npm bootstrap and fontawesome</h3>
-            <h4 class="subheading">how do we scaffold that in plenti</h4>
+            <h4 class="subheading">how do we scaffold that on plenti</h4>
           </div>
           <div class="timeline-body">
             <p class="text-muted">
-              how does plenti or go scaffold npm modules?
+              i'm using npm as a verb now, sorry... how do we use npm modules with plenti? there are lots of svelte components available as npm modules and i wonder how i could use it with plenti. i got this free template working with bootstrap and fontawesome. but the script calls are inside the body tag, or is that perfectly okay.
             </p>
           </div>
         </div>

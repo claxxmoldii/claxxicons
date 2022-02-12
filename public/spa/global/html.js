@@ -85,7 +85,7 @@ function create_fragment(ctx) {
 			var html_nodes = children(html);
 			claim_component(head.$$.fragment, html_nodes);
 			t0 = claim_space(html_nodes);
-			body = claim_element(html_nodes, "BODY", {});
+			body = claim_element(html_nodes, "BODY", { id: true });
 			var body_nodes = children(body);
 			if (switch_instance) claim_component(switch_instance.$$.fragment, body_nodes);
 			t1 = claim_space(body_nodes);
@@ -108,6 +108,7 @@ function create_fragment(ctx) {
 			if (script0.src !== (script0_src_value = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js")) attr(script0, "src", script0_src_value);
 			if (script1.src !== (script1_src_value = "assets/js/scripts.js")) attr(script1, "src", script1_src_value);
 			if (script2.src !== (script2_src_value = "https://cdn.startbootstrap.com/sb-forms-latest.js")) attr(script2, "src", script2_src_value);
+			attr(body, "id", "page-top");
 			attr(html, "lang", "en");
 		},
 		m(target, anchor) {
