@@ -13,7 +13,8 @@
   <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
 
   <!-- fontawesome -->
-  <script src="https://kit.fontawesome.com/80f1b342a4.js" crossorigin="anonymous"></script>
+  <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+  <!-- <script src="https://kit.fontawesome.com/80f1b342a4.js" crossorigin="anonymous"></script> -->
 
 
   <!-- CSS only -->
